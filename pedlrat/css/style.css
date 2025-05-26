@@ -1,0 +1,52 @@
+table{
+            border-collapse:collapse ;
+            border: 1px solid;
+            width: 500px; 
+            box-shadow: rgba(0.1, 0.1, 0.1, 2px);
+          }
+
+        table tr th{
+          padding: 5px 5px;
+            background: linear-gradient(white,gray);
+            border: 2px solid;
+        }
+
+        #form{
+        width: 1000px;
+        height: 1000px;
+        
+      }
+      #er{
+        position: relative;
+        height: 100px;
+
+      }
+
+        #er_cat1,#er_cat2{
+        position: absolute;
+        width: 98px;
+        height: 100px;
+      }
+      
+      #er_cat2{
+        margin-left: 400px;
+      }
+      #ko_cat{
+        margin-top:40px ;
+        margin-left: 100px;
+        width: 300px;
+        max-height: 50px;
+        position: absolute;
+
+      }
+
+      table th:hover{
+        border: 2px solid black;
+        transition: background-color 1s;
+        background: linear-gradient(gray,white);
+        color: linear-gradient(blue,pink);
+      }
+      #beer{
+        
+        width: 100px;
+      }
